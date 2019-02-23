@@ -20,6 +20,8 @@ Dan Allen <thedoc@asciidoctor.org>
 //:doctype: book
 //:sectids!:
 
+Let’s get this show on the road.
+
 This is a demonstration of {library} {asciidoctor-version}.
 And this is the preamble of this document.
 
@@ -181,7 +183,7 @@ puts doc.render
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2014-01-28 20:11:37 MST
+Last updated 2019-02-23 20:11:37 MST
 </div>
 </div>
 </body>
