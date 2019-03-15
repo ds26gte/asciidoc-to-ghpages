@@ -26,6 +26,7 @@ before_install:
 
 script:
   - which asciidoctor
+  - which wkhtmltopdf
   - echo PATH is $PATH
   - ls ~
   - ls -d ~/.*
