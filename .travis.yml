@@ -23,6 +23,7 @@ before_install:
 
 script:
   - which asciidoctor
+  - ls ~
   - ls
   - ./build-something.sh
 
