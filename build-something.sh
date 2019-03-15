@@ -10,7 +10,7 @@
     </head>
     <body>
     <h1>Nothing special</h1>
-    <p>Nothing special, really!</p>
+    <p>e^(i pi) = -1</p>
     </body>
     </html>"))
     #:exists 'replace)
