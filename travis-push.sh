@@ -5,8 +5,12 @@ echo DOING travis-push.sh
 git config --global user.email "${GH_USER_EMAIL}"
 git config --global user.name "${GH_USER_NAME}"
 
+echo Adding example.html
+
 git add example.html
 git commit -m "committed at $(date)" example.html
 
-git push --force "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+echo Committed example.html
+
+git push --force "https://${GH_TOKEN}@github.com/ds26gte/asciidoc-to-pages" master:gh-pages > /dev/null 2>&1
 
