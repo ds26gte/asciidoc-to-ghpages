@@ -7,10 +7,10 @@ git checkout -B travistmp
 git config --global user.email "${GH_USER_EMAIL}"
 git config --global user.name "${GH_USER_NAME}"
 
-git add example.html
+git add *.css *.html
 
 echo Added example
-git commit -m "committed at $(date)" example.html
+git commit -m "committed at $(date)" 
 
 echo Committed example
 

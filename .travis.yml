@@ -28,7 +28,8 @@ script:
   - ls -d ~/.*
   - ls
   - ls -d .*
-  - ./build-something.sh
+  - ./build-something-r.sh
+  - ./build-something-a.sh
 
 after_success:
   - ls example.html
