@@ -23,8 +23,11 @@ before_install:
 
 script:
   - which asciidoctor
+  - echo PATH is $PATH
   - ls ~
+  - ls -d ~/.*
   - ls
+  - ls -d .*
   - ./build-something.sh
 
 after_success:
