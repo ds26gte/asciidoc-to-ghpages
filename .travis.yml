@@ -23,4 +23,5 @@ script:
   ./build-something.sh
 
 after_success:
+  ls example.html
   ./travis-push.sh
