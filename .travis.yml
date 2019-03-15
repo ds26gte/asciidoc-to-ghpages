@@ -22,20 +22,14 @@ before_install:
   - wget https://downloads.wkhtmltopdf.org/0.12/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
   - tar xvf wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
   - mv wkhtmltox/bin/wkhtmlto* /usr/bin
-  - apt-get install -y pdftk
 
 script:
   - which asciidoctor
   - which wkhtmltopdf
   - echo PATH is $PATH
-  - ls ~
-  - ls -d ~/.*
-  - ls
-  - ls -d .*
   - ./build-something-r.sh
   - ./build-something-a.sh
   - ./build-something-w.sh
 
 after_success:
-  - ls example.html
   - ./travis-push.sh
