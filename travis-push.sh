@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo DOING travis-push.sh
+
 git config --global user.email "${GH_USER_EMAIL}"
 git config --global user.name "${GH_USER_NAME}"
 
