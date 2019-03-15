@@ -15,13 +15,13 @@ branches:
 
 
 before_install:
-- git clone https://github.com/greghendershott/travis-racket.git
-- cat travis-racket/install-racket.sh | bash
-- export PATH="${RACKET_DIR}/bin:${PATH}"
+  - git clone https://github.com/greghendershott/travis-racket.git
+  - cat travis-racket/install-racket.sh | bash
+  - export PATH="${RACKET_DIR}/bin:${PATH}"
 
 script:
-  ./build-something.sh
+  - ./build-something.sh
 
 after_success:
-  ls example.html
-  ./travis-push.sh
+  - ls example.html
+  - ./travis-push.sh
