@@ -10,7 +10,7 @@
     </head>
     <body>
     <h1>Nothing special</h1>
-    <p>e^(i pi) = -1</p>
+    <p>e^(i pi) = -1 on Pi Day</p>
     </body>
     </html>"))
     #:exists 'replace)
