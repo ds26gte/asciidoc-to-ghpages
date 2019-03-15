@@ -13,6 +13,6 @@ git commit -m "committed at $(date)" example.html
 git push --force "https://${GH_TOKEN}@${GH_REF}" travistmp:gh-pages > /dev/null 2>&1
 
 git checkout master
-git branch -d travistmp
+git branch -D travistmp
 git push origin :travistmp
 
