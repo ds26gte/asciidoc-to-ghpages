@@ -21,14 +21,8 @@ before_install:
   - tar xvf wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
   - sudo mv wkhtmltox/bin/wkhtmlto* /usr/bin
   - sudo apt-get install -y pdftk
-  - ls
-  - ls ~
 
 script:
-  - which asciidoctor
-  - which wkhtmltopdf
-  - which pdftk
-  - echo PATH is $PATH
   - ./build-something-r.sh
   - ./build-something-a.sh
   - ./build-something-w.sh
